@@ -1,0 +1,12 @@
+						##### The Program 20CS06011_Assignment_1.ipynb contains two methods ######
+
+Encode() : - Encode function expect 3 parameter, image, secret key, and, length.
+		Image - You are required to provide original image
+		Secret Key - The secret message which need to be transmitted
+		length - Provide the length of the message
+	Encode function will return an encoded image which contains a hidden message.
+
+Decode() : - Decode function expect 2 parameter, image, and, length
+		Image - You need to pass the encoded image here
+		Length - Provide the length of secrte text
+	Decode will extract message from the encoded image and also revert back the change made to image
