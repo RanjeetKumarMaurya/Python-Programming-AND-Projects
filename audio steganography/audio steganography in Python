@@ -1,1 +1,32 @@
+                                            ##### The Program 20CS06011_Assignment_2.ipynb contains two methods ######
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Encode() : - Encode function expecting 3 parameter, one audio file, one message and, one key
+		Audio- You are required to provide original audio
+		Key - The secret message which need to be transmitted
+		Message - Provide the length of the message
+	     Encode function will create a encoded audio file and return the length of encoded bits
+
+Input Format:
+RANJEET KUMAR - cover_audio.wav
+I am Secret Message
+3
+
+Output Format:
+output.wav
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Decode() : - Decode function expect 2 parameter, audio, and, length
+		Audio- You need to pass the encoded image here
+		Length - Provide the length of Encoded bits
+	     Decode will extract message from the encoded audio and print them.
+
+
+Input Format:
+output.wav
+3
+
+Output Format:
+I am Secret Message
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
